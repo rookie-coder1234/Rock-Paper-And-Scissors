@@ -10,8 +10,6 @@ import random
 class RockPaperScissors(random.Random):
     def __init__(self):
         print("The Player Who Reaches 5Points First Wins The Race! ")
-        self.player1_score = 0
-        self.player2_score = 0
         self.compplayer_score = 0
         self.comp_score = 0
         self.inputchoice = ["rock", "paper", "scissors"]
